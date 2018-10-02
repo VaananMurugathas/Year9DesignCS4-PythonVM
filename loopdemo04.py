@@ -9,6 +9,8 @@
 # If you know how many times a loop should run it's beter to use counter loop
 # Else use conditional loop
 import os
+import webbrowser
+import time
 print("*******************************")
 #Taking inputs
 word = input("Please input a word with more than 5 letters ")
@@ -24,3 +26,9 @@ while (len(word) < 6 or word.isalpha() == False):
 
 
 print(word+" is seriously long!")
+print("Sike get rick roll'd lmao")
+time.sleep(2)
+webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+
+
+
