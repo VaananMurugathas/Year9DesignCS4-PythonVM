@@ -18,16 +18,17 @@ word = input("Please input a word with more than 5 letters ")
 while (len(word) < 6 or word.isalpha() == False):
 	word = input("Please input a word with more than 5 letters ")
 	if (len(word) < 6):
-		print("Boi learn to count letters that's not enough")
+		os.system("osascript -e \"Set Volume 10\"")
 		os.system("say mission failed we will get them next time")
 
 	if (word.isalpha() == False):
-		print("boi use one word")
+		print("Use one word")
 
 
 print(word+" is seriously long!")
 print("Sike get rick roll'd lmao")
 time.sleep(2)
+os.system("osascript -e \"Set Volume 10\"")
 webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 
